@@ -193,13 +193,32 @@
     wrap.style.top = px(element.y, SLIDE_H);
     wrap.style.width = px(element.w, SLIDE_W);
     wrap.style.height = px(element.h, SLIDE_H);
+
+    const shell = document.createElement("div");
+    shell.className = "video-shell";
+
     const video = document.createElement("video");
     video.className = "slide-video";
-    video.src = element.src;
     video.poster = element.poster;
-    video.controls = true;
-    video.preload = "metadata";
-    wrap.appendChild(video);
+    video.preload = "none";
+
+    const trigger = document.createElement("button");
+    trigger.className = "video-trigger";
+    trigger.type = "button";
+    trigger.innerHTML = "<span>播放</span>";
+    trigger.addEventListener("click", () => {
+      if (!video.src) {
+        video.src = element.src;
+        video.controls = true;
+        video.load();
+      }
+      video.play().catch(() => {});
+      trigger.remove();
+    });
+
+    shell.appendChild(video);
+    shell.appendChild(trigger);
+    wrap.appendChild(shell);
     return wrap;
   }
 
