@@ -19,7 +19,7 @@
         { type: "text", x: 1_247_651, y: 1_720_000, w: 4_800_061, h: 3_100_000, align: "left", fontSize: 5600, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", letterSpacing: 120, lineHeightPts: 6200, html: "<p>欢迎来到</p><p>顾家龙</p><p>作品分享</p>" },
         { type: "text", x: 3_633_279, y: 6_067_701, w: 4_828_866, h: 724_062, align: "center", fontSize: 4487, fontFamily: "思源黑体, PingFang SC, sans-serif", color: "#ffffff", lineHeightPts: 5833, html: "<p>2026</p>" },
         { type: "text", x: 9_865_446, y: 5_164_000, w: 1_634_676, h: 2_579_090, align: "left", fontSize: 2547, fontFamily: "Montserrat Light, Arial, sans-serif", color: "#ffffff", lineHeightPts: 3311, rotate: -90, html: "<p>WELCOME TO MY PERSONAL WORK WEBSITE</p>" },
-        { type: "text", x: 1_004_396, y: 259_115, w: 2_177_504, h: 737_345, align: "left", html: "<p><span style='font-size:22pt;font-weight:600;color:#000'>顾家龙作品网站</span></p><p><span style='font-size:15pt;font-weight:600;color:#000'>达人合作&amp;信息流案例</span></p>" }
+        { type: "text", x: 1_004_396, y: 259_115, w: 2_177_504, h: 737_345, align: "left", html: "<p><span style='font-size:20pt;font-weight:600;color:#000'>顾家龙作品网站</span></p><p><span style='font-size:14pt;font-weight:600;color:#000'>达人合作&amp;信息流案例</span></p>" }
       ]
     },
     {
@@ -28,7 +28,7 @@
         { type: "image", x: 7_557_385, y: 1_001_770, w: 4_655_365, h: 5_449_091, src: "./media/image4.jpeg" },
         { type: "text", x: 917_746, y: 520_951, w: 3_248_483, h: 601_980, align: "left", fontSize: 3335, fontFamily: "字由点字典黑 Bold, PingFang SC, sans-serif", color: "#000000", html: "<p>达人营销成就</p>" },
         { type: "text", x: 10_334_425, y: 628_383, w: 1_945_205, h: 456_448, align: "right", fontSize: 2000, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#000000", html: "<p>最近经历</p>" },
-        { type: "text", x: 917_746, y: 1_850_086, w: 6_250_000, h: 4_618_072, align: "left", html: "<p><span style='font-size:24pt;font-weight:300'>从 0 到 1 开拓 TikTok Spark Ads &amp; Instagram</span></p><p><span style='font-size:18pt;font-weight:300'>达人投放增长的新链路：主导 3 人协作团队，覆盖达人拓展、</span></p><p><span style='font-size:18pt;font-weight:300'>脚本/创意沟通、发布定稿、数据反馈、复盘迭代全流程。</span></p><p><span style='font-size:18pt;font-weight:300'>2025 Q4（10–12月）达人广告+素材投放累计消耗 $720K，</span></p><p><span style='font-size:18pt;font-weight:300'>支撑持续放量与投放稳定性。</span></p><p><span style='font-size:18pt;font-weight:300'>爆款规模化结果：达人 IG 共创千万级播放爆款案例 20M / 15M / 13M；</span></p><p><span style='font-size:18pt;font-weight:300'>达人共创三百万级+播放爆款案例：IG 5 个+、TikTok 8 个+</span></p><p><span style='font-size:18pt;font-weight:300'>创意落地专家：搭建“创意测试→素材标签→复用放量”机制，</span></p><p><span style='font-size:18pt;font-weight:300'>ROI 相对提升约 5%，CPI 更稳定，支撑持续放量与创意迭代。</span></p>" }
+        { type: "text", x: 917_746, y: 1_850_086, w: 6_000_000, h: 4_800_000, align: "left", html: "<p><span style='font-size:20pt;font-weight:300'>从 0 到 1 开拓 TikTok Spark Ads &amp; Instagram 达人投放增长的新链路：</span></p><p><span style='font-size:16pt;font-weight:300'>主导 3 人协作团队；覆盖达人拓展→脚本/创意沟通→发布定稿→</span></p><p><span style='font-size:16pt;font-weight:300'>数据反馈→复盘迭代全流程。</span></p><p><span style='font-size:16pt;font-weight:300'>2025 Q4（10–12月）达人广告+素材投放累计消耗 $720K，</span></p><p><span style='font-size:16pt;font-weight:300'>支撑持续放量与投放稳定性。</span></p><p><span style='font-size:16pt;font-weight:300'>爆款规模化结果：</span></p><p><span style='font-size:16pt;font-weight:300'>达人 IG 共创千万级播放爆款案例：20M / 15M / 13M 播放；</span></p><p><span style='font-size:16pt;font-weight:300'>达人共创三百万级+播放爆款案例：IG 5 个+、TikTok 8 个+</span></p><p><span style='font-size:16pt;font-weight:300'>创意落地专家：搭建“创意测试→素材标签→复用放量”机制，</span></p><p><span style='font-size:16pt;font-weight:300'>沉淀软植入高潜素材结构并形成可复用脚本模板；</span></p><p><span style='font-size:16pt;font-weight:300'>同口径对比 ROI 相对提升约 5%，CPI 同步优化且更稳定，</span></p><p><span style='font-size:16pt;font-weight:300'>支撑持续放量与创意迭代。</span></p>" }
       ]
     },
     {
@@ -39,9 +39,9 @@
         { type: "image", x: 7_858_887, y: 3_397_606, w: 1_345_997, h: 2_926_080, src: "./media/image6.jpeg" },
         { type: "image", x: 9_204_884, y: 3_397_606, w: 1_353_312, h: 2_926_080, src: "./media/image7.jpeg" },
         { type: "image", x: 10_558_196, y: 3_397_606, w: 1_700_784, h: 2_926_080, src: "./media/image8.jpeg" },
-        { type: "text", x: 2_000_000, y: 3_950_000, w: 4_700_000, h: 900_000, align: "left", fontSize: 3000, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>三个千万级</p>" },
-        { type: "text", x: 1_300_000, y: 4_900_000, w: 5_200_000, h: 900_000, align: "left", fontSize: 3000, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>十五个百万级</p>" },
-        { type: "text", x: 2_700_000, y: 2_850_000, w: 7_500_000, h: 900_000, align: "left", fontSize: 3800, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 700, color: "#ffffff", html: "<p>达人爆款</p>" }
+        { type: "text", x: 2_500_000, y: 2_600_000, w: 4_500_000, h: 900_000, align: "left", fontSize: 3600, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 700, color: "#ffffff", html: "<p>达人爆款</p>" },
+        { type: "text", x: 2_000_000, y: 3_700_000, w: 4_700_000, h: 900_000, align: "left", fontSize: 2800, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>三个千万级</p>" },
+        { type: "text", x: 2_000_000, y: 4_700_000, w: 5_200_000, h: 900_000, align: "left", fontSize: 2800, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>十五个百万级</p>" }
       ]
     },
     {
@@ -92,15 +92,16 @@
         { type: "video", x: 4761696, y: 4339310, w: 1572429, h: 2795429, poster: "./media/image34.jpeg", src: "./media/VAHC2mkLID8.mp4" },
         { type: "video", x: 6505575, y: 4339310, w: 1572429, h: 2795429, poster: "./media/image35.jpeg", src: "./media/VAHC2qjz-v4.mp4" },
         { type: "video", x: 9941910, y: 1498631, w: 1512554, h: 2688984, poster: "./media/image36.jpeg", src: "./media/VAHC2sbGvqI.mp4" },
-        { type: "text", x: -345743, y: 430663, w: 13176506, h: 506464, align: "center", html: "<p><span style='font-size:24pt;font-weight:300'>Sora2 pro专家</span><span style='font-size:24pt;font-weight:300'> </span><span style='font-size:24pt;font-weight:300'>验证</span><span style='font-size:24pt;font-weight:300'> </span><span style='font-size:24pt;font-weight:300'>多个跑通模型 单条 AI 素材</span></p>" },
-        { type: "text", x: 8260000, y: 560000, w: 3500000, h: 700000, align: "left", html: "<p><span style='font-size:20pt;font-weight:600;color:#d84646'>月</span><span style='font-size:20pt;font-weight:300;color:#000'>消耗最高12万美刀</span></p>" }
+        { type: "text", x: 0, y: 360000, w: 13004800, h: 600000, align: "center", html: "<p><span style='font-size:22pt;font-weight:300'>Sora2 pro专家 验证 多个跑通模型 单条 AI 素材</span></p>" },
+        { type: "text", x: 8250000, y: 980000, w: 3600000, h: 700000, align: "left", html: "<p><span style='font-size:20pt;font-weight:600;color:#d84646'>月</span><span style='font-size:20pt;font-weight:300;color:#000'>消耗最高12万美刀</span></p>" }
       ]
     },
     {
       background: "#ffffff",
       elements: [
         { type: "image", x: 0, y: 0, w: 13004800, h: 7315200, src: "./media/image37.png", href: "https://www.xinpianchang.com/u10482737?channel=copyLink&from=webShare" },
-        { type: "text", x: 4972382, y: 486034, w: 4409117, h: 433822, align: "center", fontSize: 2200, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", html: "<p>作品跳转入口</p>" }
+        { type: "text", x: 4972382, y: 486034, w: 4409117, h: 433822, align: "center", fontSize: 2200, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", html: "<p>作品跳转入口</p>" },
+        { type: "image", x: 6400000, y: 900000, w: 200000, h: 200000, src: "./media/image2.svg", href: "https://www.xinpianchang.com/u10482737?channel=copyLink&from=webShare" }
       ]
     },
     {
