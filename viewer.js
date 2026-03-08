@@ -193,11 +193,13 @@
     wrap.style.top = px(element.y, SLIDE_H);
     wrap.style.width = px(element.w, SLIDE_W);
     wrap.style.height = px(element.h, SLIDE_H);
-    const img = document.createElement("img");
-    img.className = "slide-image";
-    img.src = element.poster;
-    img.alt = "";
-    wrap.appendChild(img);
+    const video = document.createElement("video");
+    video.className = "slide-video";
+    video.src = element.src;
+    video.poster = element.poster;
+    video.controls = true;
+    video.preload = "metadata";
+    wrap.appendChild(video);
     return wrap;
   }
 
