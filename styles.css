@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #cfcfcf;
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 
 * {
@@ -58,12 +58,19 @@ body {
   overflow-wrap: normal;
   text-rendering: geometricPrecision;
   font-kerning: none;
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+  font-weight: 300;
 }
 
 .slide-text p {
   margin: 0;
   white-space: nowrap;
   line-height: inherit;
+}
+
+.slide-text,
+.slide-text * {
+  font-family: "Microsoft YaHei", "微软雅黑", sans-serif !important;
 }
 
 .slide-link {

@@ -16,10 +16,10 @@
         { type: "text", x: 4_868_195, y: 588_924, w: 736_921, h: 198_120, align: "left", fontSize: 1200, fontFamily: "思源宋体 Bold, Songti SC, serif", fontWeight: 700, color: "#000000", html: "<p>首页</p>" },
         { type: "text", x: 6_505_575, y: 560_733, w: 736_921, h: 198_120, align: "left", fontSize: 1200, fontFamily: "思源宋体, Songti SC, serif", color: "#000000", html: "<p>代表作品</p>" },
         { type: "text", x: 8_462_146, y: 560_733, w: 736_921, h: 198_120, align: "left", fontSize: 1200, fontFamily: "思源宋体, Songti SC, serif", color: "#000000", underline: true, html: "<p>联络</p>" },
-        { type: "text", x: 1_247_651, y: 1_950_895, w: 4_800_061, h: 2_818_911, align: "left", fontSize: 6711, fontFamily: "字由点字典黑 Thin, PingFang SC, sans-serif", color: "#ffffff", letterSpacing: 335, lineHeightPts: 7382, html: "<p>欢迎来到</p><p>顾家龙</p><p>作品分享</p>" },
+        { type: "text", x: 1_247_651, y: 1_720_000, w: 4_800_061, h: 3_100_000, align: "left", fontSize: 5600, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", letterSpacing: 120, lineHeightPts: 6200, html: "<p>欢迎来到</p><p>顾家龙</p><p>作品分享</p>" },
         { type: "text", x: 3_633_279, y: 6_067_701, w: 4_828_866, h: 724_062, align: "center", fontSize: 4487, fontFamily: "思源黑体, PingFang SC, sans-serif", color: "#ffffff", lineHeightPts: 5833, html: "<p>2026</p>" },
         { type: "text", x: 9_865_446, y: 5_164_000, w: 1_634_676, h: 2_579_090, align: "left", fontSize: 2547, fontFamily: "Montserrat Light, Arial, sans-serif", color: "#ffffff", lineHeightPts: 3311, rotate: -90, html: "<p>WELCOME TO MY PERSONAL WORK WEBSITE</p>" },
-        { type: "text", x: 1_004_396, y: 259_115, w: 2_177_504, h: 737_345, align: "left", html: "<p><span style='font-size:24.45pt;font-family:字由点字典黑 Bold, PingFang SC, sans-serif;color:#000'>顾家龙作品网站</span></p><p><span style='font-size:17.45pt;font-family:字由点字典黑 Bold, PingFang SC, sans-serif;color:#000'>达人合作&amp;信息流案例</span></p>" }
+        { type: "text", x: 1_004_396, y: 259_115, w: 2_177_504, h: 737_345, align: "left", html: "<p><span style='font-size:22pt;font-weight:600;color:#000'>顾家龙作品网站</span></p><p><span style='font-size:15pt;font-weight:600;color:#000'>达人合作&amp;信息流案例</span></p>" }
       ]
     },
     {
@@ -28,20 +28,20 @@
         { type: "image", x: 7_557_385, y: 1_001_770, w: 4_655_365, h: 5_449_091, src: "./media/image4.jpeg" },
         { type: "text", x: 917_746, y: 520_951, w: 3_248_483, h: 601_980, align: "left", fontSize: 3335, fontFamily: "字由点字典黑 Bold, PingFang SC, sans-serif", color: "#000000", html: "<p>达人营销成就</p>" },
         { type: "text", x: 10_334_425, y: 628_383, w: 1_945_205, h: 456_448, align: "right", fontSize: 2000, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#000000", html: "<p>最近经历</p>" },
-        { type: "text", x: 917_746, y: 1_850_086, w: 7_689_499, h: 4_618_072, align: "left", html: "<p><span style='font-size:32pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>从</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>0到1 开拓 TikTok Spark Ads &amp; Instagram 达人投放增长的新链路：</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>主导 3 人协作团队；覆盖达人拓展→脚本/创意沟通→发布定稿→数据反馈→复盘迭代全流程。</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>2025 Q4（10–12月）达人广告+素材投放累计消耗 $720K，支撑持续放量与投放稳定性。</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>爆款规模化结果：</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>达人IG 共创千万级播放 爆款案例:20M/15M/13M 播放；</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>达人共创三百万级+播放 爆款案例：IG 5 个+、TikTok 8个+</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>创意落地专家:</span></p><p><span style='font-size:20pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>搭建“创意测试→素材标签→复用放量”机制，沉淀软植入高潜素材结构并形成可复用脚本模板；同口径对比 ROI 相对提升约 5%，CPI 同步优化且更稳定，支撑持续放量与创意迭代。</span></p>" }
+        { type: "text", x: 917_746, y: 1_850_086, w: 6_250_000, h: 4_618_072, align: "left", html: "<p><span style='font-size:24pt;font-weight:300'>从 0 到 1 开拓 TikTok Spark Ads &amp; Instagram</span></p><p><span style='font-size:18pt;font-weight:300'>达人投放增长的新链路：主导 3 人协作团队，覆盖达人拓展、</span></p><p><span style='font-size:18pt;font-weight:300'>脚本/创意沟通、发布定稿、数据反馈、复盘迭代全流程。</span></p><p><span style='font-size:18pt;font-weight:300'>2025 Q4（10–12月）达人广告+素材投放累计消耗 $720K，</span></p><p><span style='font-size:18pt;font-weight:300'>支撑持续放量与投放稳定性。</span></p><p><span style='font-size:18pt;font-weight:300'>爆款规模化结果：达人 IG 共创千万级播放爆款案例 20M / 15M / 13M；</span></p><p><span style='font-size:18pt;font-weight:300'>达人共创三百万级+播放爆款案例：IG 5 个+、TikTok 8 个+</span></p><p><span style='font-size:18pt;font-weight:300'>创意落地专家：搭建“创意测试→素材标签→复用放量”机制，</span></p><p><span style='font-size:18pt;font-weight:300'>ROI 相对提升约 5%，CPI 更稳定，支撑持续放量与创意迭代。</span></p>" }
       ]
     },
     {
-      background: "#000000",
+      background: "#447A89",
       elements: [
         { type: "image", x: 4_517_678, y: 690_262, w: 7_741_302, h: 2_196_594, src: "./media/image9.png" },
         { type: "image", x: 6_505_575, y: 3_397_606, w: 1_353_312, h: 2_926_080, src: "./media/image5.jpeg" },
         { type: "image", x: 7_858_887, y: 3_397_606, w: 1_345_997, h: 2_926_080, src: "./media/image6.jpeg" },
         { type: "image", x: 9_204_884, y: 3_397_606, w: 1_353_312, h: 2_926_080, src: "./media/image7.jpeg" },
         { type: "image", x: 10_558_196, y: 3_397_606, w: 1_700_784, h: 2_926_080, src: "./media/image8.jpeg" },
-        { type: "text", x: 2_092_376, y: 3_970_527, w: 4_654_035, h: 1_366_009, align: "left", fontSize: 3500, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#ffffff", html: "<p>三个千万级</p>" },
-        { type: "text", x: 1_401_407, y: 4_993_636, w: 4_932_408, h: 1_330_050, align: "left", fontSize: 3500, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#ffffff", html: "<p>十五个百万级</p>" },
-        { type: "text", x: 2_873_607, y: 2_915_289, w: 7_368_203, h: 1_355_276, align: "left", fontSize: 4600, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#ffffff", html: "<p>达人爆款</p>" }
+        { type: "text", x: 2_000_000, y: 3_950_000, w: 4_700_000, h: 900_000, align: "left", fontSize: 3000, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>三个千万级</p>" },
+        { type: "text", x: 1_300_000, y: 4_900_000, w: 5_200_000, h: 900_000, align: "left", fontSize: 3000, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 600, color: "#ffffff", html: "<p>十五个百万级</p>" },
+        { type: "text", x: 2_700_000, y: 2_850_000, w: 7_500_000, h: 900_000, align: "left", fontSize: 3800, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", fontWeight: 700, color: "#ffffff", html: "<p>达人爆款</p>" }
       ]
     },
     {
@@ -58,7 +58,7 @@
         { type: "video", x: 2444847, y: 3657600, w: 1512709, h: 2689260, poster: "./media/image18.jpeg", src: "./media/VAHC2osTfn0.mp4" },
         { type: "video", x: 4114234, y: 3742877, w: 1464740, h: 2603983, poster: "./media/image19.jpeg", src: "./media/VAHC2uttYbM.mp4" },
         { type: "line", x: 9426972, y: 859974, w: 110436, h: 5723706, color: "#ffffff", stroke: 28575 },
-        { type: "text", x: 9951744, y: 2941720, w: 2541538, h: 1163054, align: "center", fontSize: 3335, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#ffffff", lineHeightPts: 4669, html: "<p>达人合作案例</p><p>作品一览</p>" }
+        { type: "text", x: 9951744, y: 2780000, w: 2541538, h: 1450000, align: "center", fontSize: 2700, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", lineHeightPts: 3600, html: "<p>达人合作案例</p><p>作品一览</p>" }
       ]
     },
     {
@@ -75,7 +75,7 @@
         { type: "video", x: 5935572, y: 1353053, w: 2436508, h: 4331569, poster: "./media/image23.jpeg", src: "./media/VAHCr_efv6A.mp4" },
         { type: "video", x: 8625477, y: 1344090, w: 3833595, h: 2156397, poster: "./media/image24.jpeg", src: "./media/VAHCoHmq_HQ.mp4" },
         { type: "video", x: 8625477, y: 3671277, w: 3833595, h: 2156397, poster: "./media/image25.jpeg", src: "./media/VAHCr34Qn5w.mp4" },
-        { type: "text", x: 552077, y: 506986, w: 4211241, h: 605842, align: "left", fontSize: 3335, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#000000", html: "<p>Dating信息流作品一览</p>" }
+        { type: "text", x: 552077, y: 506986, w: 5200000, h: 700000, align: "left", fontSize: 2800, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#000000", html: "<p>Dating信息流作品一览</p>" }
       ]
     },
     {
@@ -92,15 +92,15 @@
         { type: "video", x: 4761696, y: 4339310, w: 1572429, h: 2795429, poster: "./media/image34.jpeg", src: "./media/VAHC2mkLID8.mp4" },
         { type: "video", x: 6505575, y: 4339310, w: 1572429, h: 2795429, poster: "./media/image35.jpeg", src: "./media/VAHC2qjz-v4.mp4" },
         { type: "video", x: 9941910, y: 1498631, w: 1512554, h: 2688984, poster: "./media/image36.jpeg", src: "./media/VAHC2sbGvqI.mp4" },
-        { type: "text", x: -345743, y: 430663, w: 13176506, h: 506464, align: "center", html: "<p><span style='font-size:28pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>Sora2 pro专家</span><span style='font-size:28pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'> </span><span style='font-size:28pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>验证</span><span style='font-size:28pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'> </span><span style='font-size:28pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>多个跑通模型 单条 AI 素材</span></p>" },
-        { type: "text", x: 8569343, y: 536555, w: 3155986, h: 995684, align: "left", html: "<p><span style='font-size:24pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>月</span></p><p><span style='font-size:24pt;font-family:字由点字典黑 Light, PingFang SC, sans-serif'>消耗最高12万美刀</span></p>" }
+        { type: "text", x: -345743, y: 430663, w: 13176506, h: 506464, align: "center", html: "<p><span style='font-size:24pt;font-weight:300'>Sora2 pro专家</span><span style='font-size:24pt;font-weight:300'> </span><span style='font-size:24pt;font-weight:300'>验证</span><span style='font-size:24pt;font-weight:300'> </span><span style='font-size:24pt;font-weight:300'>多个跑通模型 单条 AI 素材</span></p>" },
+        { type: "text", x: 8260000, y: 560000, w: 3500000, h: 700000, align: "left", html: "<p><span style='font-size:20pt;font-weight:600;color:#d84646'>月</span><span style='font-size:20pt;font-weight:300;color:#000'>消耗最高12万美刀</span></p>" }
       ]
     },
     {
       background: "#ffffff",
       elements: [
         { type: "image", x: 0, y: 0, w: 13004800, h: 7315200, src: "./media/image37.png", href: "https://www.xinpianchang.com/u10482737?channel=copyLink&from=webShare" },
-        { type: "text", x: 4972382, y: 486034, w: 4409117, h: 433822, align: "center", fontSize: 3335, fontFamily: "字由点字典黑 Light, PingFang SC, sans-serif", color: "#ffffff", html: "<p>部分TVC作品</p><p>点击此处</p><p>跳转</p>" }
+        { type: "text", x: 4972382, y: 486034, w: 4409117, h: 433822, align: "center", fontSize: 2200, fontFamily: "Microsoft YaHei, 微软雅黑, sans-serif", color: "#ffffff", html: "<p>作品跳转入口</p>" }
       ]
     },
     {
