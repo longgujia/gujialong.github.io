@@ -253,10 +253,15 @@
   }
 
   const root = document.getElementById("ppt-root");
+  const toolbar = document.getElementById("mobile-toolbar");
+  const fitButton = document.getElementById("fit-mode");
+  const zoomButton = document.getElementById("zoom-mode");
+  const mobilePage = document.getElementById("mobile-page");
 
   slides.forEach((slide) => {
     const frame = document.createElement("section");
     frame.className = "slide-frame";
+    frame.dataset.slideIndex = String(root.children.length + 1);
 
     const surface = document.createElement("div");
     surface.className = "slide-surface";
@@ -269,4 +274,48 @@
     frame.appendChild(surface);
     root.appendChild(frame);
   });
+
+  const isMobile = window.matchMedia("(max-width: 720px)");
+
+  function setMobileMode(zoomed) {
+    document.body.classList.toggle("mobile-zoom", zoomed);
+    fitButton.classList.toggle("is-active", !zoomed);
+    zoomButton.classList.toggle("is-active", zoomed);
+  }
+
+  function updatePageIndicator(index) {
+    mobilePage.textContent = `${index} / ${slides.length}`;
+  }
+
+  function enableMobileToolbar() {
+    if (!isMobile.matches) {
+      toolbar.hidden = true;
+      document.body.classList.remove("mobile-zoom");
+      return;
+    }
+
+    toolbar.hidden = false;
+    setMobileMode(false);
+
+    fitButton.addEventListener("click", () => setMobileMode(false));
+    zoomButton.addEventListener("click", () => setMobileMode(true));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (visible) {
+          updatePageIndicator(Number(visible.target.dataset.slideIndex));
+        }
+      },
+      { threshold: [0.35, 0.6, 0.85] }
+    );
+
+    root.querySelectorAll(".slide-frame").forEach((frame) => observer.observe(frame));
+    updatePageIndicator(1);
+  }
+
+  enableMobileToolbar();
 })();
