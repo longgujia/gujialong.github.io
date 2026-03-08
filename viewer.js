@@ -205,7 +205,9 @@
     const trigger = document.createElement("button");
     trigger.className = "video-trigger";
     trigger.type = "button";
-    trigger.innerHTML = "<span>播放</span>";
+    trigger.setAttribute("aria-label", "播放视频");
+    trigger.innerHTML =
+      '<span><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="23" fill="none" stroke="rgba(255,255,255,0.92)" stroke-width="2"/><path d="M19 14.5L34 24L19 33.5Z" fill="rgba(255,255,255,0.96)"/></svg></span>';
     trigger.addEventListener("click", () => {
       if (!video.src) {
         video.src = element.src;
