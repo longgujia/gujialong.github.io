@@ -118,23 +118,59 @@ body {
   display: block;
 }
 
+.mobile-deck {
+  display: none;
+}
+
+body.mobile-image-mode {
+  background: #111;
+}
+
+body.mobile-image-mode .ppt-viewer {
+  display: none;
+}
+
+body.mobile-image-mode .mobile-deck {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  padding: 0 0 16px;
+}
+
 @media (max-width: 720px) {
-  html,
-  body {
-    min-width: 1280px;
-    background: #cfcfcf;
+
+  .mobile-slide-card {
+    position: relative;
+    width: 100%;
+    background: #0f0f0f;
   }
 
-  .ppt-viewer {
-    width: 1280px;
-    padding: 12px 0 24px;
+  .mobile-slide-card img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
-  .slide-frame {
-    width: 1280px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
-    border-radius: 0;
+  .mobile-slide-actions {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .mobile-slide-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0 14px;
+    border-radius: 999px;
+    background: rgba(17, 17, 17, 0.82);
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
   }
 
   .video-trigger span {

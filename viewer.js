@@ -1,6 +1,11 @@
 (function () {
   const SLIDE_W = 13004800;
   const SLIDE_H = 7315200;
+  const params = new URLSearchParams(window.location.search);
+  const onlySlide = Number(params.get("slide")) || null;
+  const forceDesktop = params.get("desktop") === "1";
+  const isMobileViewport = Math.min(window.innerWidth, window.screen.width || window.innerWidth) <= 720;
+  const isMobileAgent = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
   const slides = [
     {
@@ -182,8 +187,10 @@
     img.className = "slide-image";
     img.src = element.src;
     img.alt = "";
-    img.loading = "lazy";
-    img.decoding = "async";
+    if (!onlySlide) {
+      img.loading = "lazy";
+      img.decoding = "async";
+    }
     wrap.appendChild(img);
     return wrap;
   }
@@ -253,9 +260,64 @@
   }
 
   const root = document.getElementById("ppt-root");
-  slides.forEach((slide) => {
+  const mobileImageMode = (isMobileViewport || isMobileAgent) && !forceDesktop && !onlySlide;
+
+  if (mobileImageMode) {
+    document.body.classList.add("mobile-image-mode");
+
+    const deck = document.createElement("div");
+    deck.className = "mobile-deck";
+
+    slides.forEach((_, index) => {
+      const slideNumber = index + 1;
+      const card = document.createElement("section");
+      card.className = "mobile-slide-card";
+
+      const image = document.createElement("img");
+      image.src = `./mobile-slides/slide${slideNumber}.png`;
+      image.alt = `第 ${slideNumber} 页`;
+      image.loading = slideNumber <= 2 ? "eager" : "lazy";
+      image.decoding = "async";
+      card.appendChild(image);
+
+      const actions = document.createElement("div");
+      actions.className = "mobile-slide-actions";
+
+      if ([4, 6, 7].includes(slideNumber)) {
+        const videoLink = document.createElement("a");
+        videoLink.className = "mobile-slide-action";
+        videoLink.href = `./?desktop=1&slide=${slideNumber}`;
+        videoLink.textContent = "本页视频";
+        actions.appendChild(videoLink);
+      }
+
+      if (slideNumber === 8) {
+        const link = document.createElement("a");
+        link.className = "mobile-slide-action";
+        link.href = "https://www.xinpianchang.com/u10482737?channel=copyLink&from=webShare";
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        link.textContent = "外链";
+        actions.appendChild(link);
+      }
+
+      if (actions.children.length) {
+        card.appendChild(actions);
+      }
+
+      deck.appendChild(card);
+    });
+
+    root.after(deck);
+    return;
+  }
+
+  slides
+    .filter((_, index) => !onlySlide || index + 1 === onlySlide)
+    .forEach((slide, filteredIndex) => {
     const frame = document.createElement("section");
     frame.className = "slide-frame";
+    frame.id = `slide-${onlySlide || filteredIndex + 1}`;
 
     const surface = document.createElement("div");
     surface.className = "slide-surface";
@@ -267,5 +329,5 @@
 
     frame.appendChild(surface);
     root.appendChild(frame);
-  });
+    });
 })();
