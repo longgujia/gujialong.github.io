@@ -182,6 +182,8 @@
     img.className = "slide-image";
     img.src = element.src;
     img.alt = "";
+    img.loading = "lazy";
+    img.decoding = "async";
     wrap.appendChild(img);
     return wrap;
   }
@@ -201,6 +203,7 @@
     video.className = "slide-video";
     video.poster = element.poster;
     video.preload = "none";
+    video.playsInline = true;
 
     const trigger = document.createElement("button");
     trigger.className = "video-trigger";

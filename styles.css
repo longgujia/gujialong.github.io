@@ -4,6 +4,8 @@ body {
   padding: 0;
   background: #cfcfcf;
   font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
 }
 
 * {
@@ -14,6 +16,7 @@ body {
   width: min(100%, 1440px);
   margin: 0 auto;
   padding: 12px 0 24px;
+  scroll-snap-type: y proximity;
 }
 
 .slide-frame {
@@ -24,6 +27,9 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   position: relative;
+  scroll-snap-align: start;
+  content-visibility: auto;
+  contain-intrinsic-size: 720px 405px;
 }
 
 .slide-surface {
@@ -113,13 +119,29 @@ body {
 }
 
 @media (max-width: 720px) {
+  body {
+    background: #111;
+  }
+
   .ppt-viewer {
-    padding: 0 0 12px;
+    width: 100%;
+    padding: 0 0 8px;
   }
 
   .slide-frame {
     width: 100vw;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     box-shadow: none;
+    border-radius: 0;
+  }
+
+  .video-trigger span {
+    width: 62px;
+    height: 62px;
+  }
+
+  .video-trigger svg {
+    width: 24px;
+    height: 24px;
   }
 }
